@@ -108,10 +108,20 @@ const CameraAndFox = () => {
       if (forward) {
         movementVector.current.z = speed; // Move forward along the negative z-axis
         playAnimation('Walking');
-      } else if (backward) {
+      } 
+      else if (backward) {
         movementVector.current.z = -speed; // Move backward along the positive z-axis
         playAnimation('Walking');
-      } else {
+      } 
+      else if (left) {
+        movementVector.current.y = -speed; 
+        playAnimation('Walking');
+      } 
+      else if (right) {
+        movementVector.current.y = speed; 
+        playAnimation('Walking');
+      } 
+      else {
         playAnimation('Idle'); // Play Idle if no movement
       }
 
