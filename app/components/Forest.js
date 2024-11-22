@@ -43,7 +43,7 @@ export default function Forest() {
       {/* PondAbout */}
       <PondAbout
         position={[0, 1, 30]} // Adjust the position as needed
-        scale={[0.5, 0.35, 0.5]} // Keep the original scale
+        scale={[0.6, 0.4, 0.7]} // Keep the original scale
       />
     </Canvas>
   );

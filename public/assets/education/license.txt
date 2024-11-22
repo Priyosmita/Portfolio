@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flying Magic Book
+* source:	https://sketchfab.com/3d-models/flying-magic-book-95ee5c76e08442a5ad00e2b02a8270b9
+* author:	Organization (https://sketchfab.com/organizationx)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flying Magic Book" (https://sketchfab.com/3d-models/flying-magic-book-95ee5c76e08442a5ad00e2b02a8270b9) by Organization (https://sketchfab.com/organizationx) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

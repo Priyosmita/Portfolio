@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Tree - Fall
+* source:	https://sketchfab.com/3d-models/low-poly-tree-fall-25d7e3bc78dc4813afc59a401736c91c
+* author:	lucasbaze (https://sketchfab.com/lucasbaze)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Tree - Fall" (https://sketchfab.com/3d-models/low-poly-tree-fall-25d7e3bc78dc4813afc59a401736c91c) by lucasbaze (https://sketchfab.com/lucasbaze) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
