@@ -118,5 +118,19 @@ export default function CameraAndPikachu() {
     }
   });
 
+  // Adjust material color to make Pikachu warmer
+  useEffect(() => {
+    if (scene) {
+      // Traverse the model and change material properties
+      scene.traverse((child) => {
+        if (child.isMesh) {
+          child.material.color.setHex(0xffc107); // Warm yellow color
+          child.material.emissive.setHex(0xffb300); // Slightly emissive yellow glow for warmth
+          child.material.emissiveIntensity = 0; // Adjust the emissive glow intensity
+        }
+      });
+    }
+  }, [scene]);
+
   return <primitive ref={pikachuRef} object={scene} scale={2} />;
 }

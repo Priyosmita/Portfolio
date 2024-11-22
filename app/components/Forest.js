@@ -2,6 +2,7 @@ import { Canvas, useThree } from '@react-three/fiber';
 import CameraAndPikachu from './CameraAndPikachu';
 import { useEffect } from 'react';
 import * as THREE from 'three';
+import PondAbout from './PondAbout';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -26,18 +27,24 @@ export default function Forest() {
       <SetBackgroundColor color="#aaf274" />
 
       {/* Lighting */}
-      <ambientLight intensity={0.2} />
+      <ambientLight intensity={0.1} />
       <directionalLight
         position={[10, 20, 10]}
         intensity={4}
-        color="#ffd917" // Warm sunlight color
+        // color="#ffd917" // Warm sunlight color
       />
 
       {/* Ground */}
-      <Ground color="#57fa3e" />
+      <Ground color="#0bfc03" />
 
       {/* Pikachu */}
       <CameraAndPikachu />
+
+      {/* PondAbout */}
+      <PondAbout
+        position={[0, 1, 30]} // Adjust the position as needed
+        scale={[0.5, 0.35, 0.5]} // Keep the original scale
+      />
     </Canvas>
   );
 }
