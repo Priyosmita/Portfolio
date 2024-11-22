@@ -14,7 +14,7 @@ export default function CameraAndPikachu() {
   // Load the Pikachu model and its animations
   const { scene, animations: gltfAnimations } = useGLTF('/assets/pikachu/scene.gltf');
 
-  const [position, setPosition] = useState([0, 0, 0]);
+  const [position, setPosition] = useState([0, 0, 45]);
   const [rotation, setRotation] = useState(0);
   const currentRotation = useRef(0);
   
