@@ -109,7 +109,7 @@ export default function CameraAndPikachu() {
       
       const [x, y] = position;
       
-      camera.position.set(x, y + 10, position[2] + 10); // Set camera position above Pikachu
+      camera.position.set(x, y + 10, position[2] + 12); // Set camera position above Pikachu
       camera.lookAt(x, y, position[2]); // Make camera look at Pikachu's position
     }
     
