@@ -2,9 +2,9 @@ import { useGLTF } from '@react-three/drei';
 import { useRef, useEffect } from 'react';
 
 const YellowTree = ({
-  positions = [[-10,0,25]], // Default to one position, but you can pass multiple positions
+  positions = [[-15,0,40],[-30,0,37],[-34,0,16]], // Default to one position, but you can pass multiple positions
   scale = [1, 1, 1],
-  rotation = [0, 0, 0], // Rotation can be applied globally or individually
+  rotation = [0,0,0], // Rotation can be applied globally or individually
 }) => {
   const { scene } = useGLTF('/assets/yellowtree/scene.gltf'); // Load the GLTF file
 
