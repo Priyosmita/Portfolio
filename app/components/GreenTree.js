@@ -2,7 +2,8 @@ import { useGLTF } from '@react-three/drei';
 import { useRef, useEffect } from 'react';
 
 const GreenTree = ({
-  positions = [[-35,0,40],[-35,0,32]], // Default to one position, but you can pass multiple positions
+  positions = [[-42,0,32],
+[38,0,40]], // Default to one position, but you can pass multiple positions
   scale = [1, 1, 1],
   rotation = [[0,0,0],[0,90,0]], // Rotation can be applied globally or individually
 }) => {

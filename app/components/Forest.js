@@ -49,7 +49,7 @@ export default function Forest() {
       />
 
       {/* Trees */}
-      {/* <TreeSpawn /> */}
+      <TreeSpawn />
       <Bush/>
     </Canvas>
   );
