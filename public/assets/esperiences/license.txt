@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tulip Flower
+* source:	https://sketchfab.com/3d-models/tulip-flower-8b865189c6ca4013a39cb25076241494
+* author:	Ra_in_coat (https://sketchfab.com/ra_in_coat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tulip Flower" (https://sketchfab.com/3d-models/tulip-flower-8b865189c6ca4013a39cb25076241494) by Ra_in_coat (https://sketchfab.com/ra_in_coat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
