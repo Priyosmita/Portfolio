@@ -6,6 +6,7 @@ import PondAbout from './PondAbout';
 import TreeSpawn from './TreeSpawn';
 import Bush from './Bush';
 import Education from './Education';
+import SkillsProjects from './SkillsProjects';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -53,11 +54,18 @@ export default function Forest() {
       <Education
         position={[-30, 3, 25]} // Adjust the position as needed
         scale={[0.007, 0.007, 0.02]} // Keep the original scale
-        rotation={[120,0,0]}
-      /> 
+        rotation={[120, 0, 0]}
+      />
+
+      {/* Skills+Projects */}
+      <SkillsProjects
+        position={[-25, 0, 0]} // Adjust the position as needed
+        scale={[3, 3, 3]}
+        rotation={[0,0,0]} />
+
       {/* Trees */}
       <TreeSpawn />
-      <Bush/>
+      <Bush />
     </Canvas>
   );
 }
