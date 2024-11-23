@@ -25,7 +25,7 @@ export default function Forest() {
   return (
     <Canvas gl={{ antialias: true }}>
       {/* Set Background Color */}
-      <SetBackgroundColor color="#aaf274" />
+      <SetBackgroundColor color="#8de2fc" />
 
       {/* Lighting */}
       <ambientLight intensity={0.1} />

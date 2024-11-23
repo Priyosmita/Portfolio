@@ -1,12 +1,26 @@
-import { useGLTF, useAnimations } from '@react-three/drei';
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+import { useGLTF } from '@react-three/drei';
+import { useRef, useEffect } from 'react';
 
-const PinkTree = ({ position = [0, 0, 0], scale = [0.05, 0.05, 0.05] }) => {
+const PinkTree = ({
+  positions = [[-25,0,42],[-10,0,16]], // Default to one position, but you can pass multiple positions
+  scale = [0.1, 0.1, 0.1],
+  rotation = [0,0,0], // Rotation can be applied globally or individually
+}) => {
   const { scene } = useGLTF('/assets/pinktree/scene.gltf'); // Load the GLTF file
-  const pinktreeRef = useRef(); // Ref to access the pond object
 
-  return <primitive ref={pinktreeRef} object={scene} position={position} scale={scale} />;
+  return (
+    <>
+      {positions.map((position, index) => (
+        <primitive
+          key={`pinktree-${index}`} // Unique key for each tree
+          object={scene.clone()} // Clone the scene to prevent overriding
+          position={position} // Use the passed position for each tree
+          scale={scale}
+          rotation={rotation} // Apply the rotation (if provided)
+        />
+      ))}
+    </>
+  );
 };
 
 export default PinkTree;

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized grass texture
+* source:	https://sketchfab.com/3d-models/stylized-grass-texture-23f013642143466a9ff7e5eaf033610b
+* author:	Zorak-Art (https://sketchfab.com/William.Charbonneau)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized grass texture" (https://sketchfab.com/3d-models/stylized-grass-texture-23f013642143466a9ff7e5eaf033610b) by Zorak-Art (https://sketchfab.com/William.Charbonneau) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
