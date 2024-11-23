@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import * as THREE from 'three';
 import PondAbout from './PondAbout';
 import TreeSpawn from './TreeSpawn';
+import Bush from './Bush';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -48,7 +49,8 @@ export default function Forest() {
       />
 
       {/* Trees */}
-      <TreeSpawn />
+      {/* <TreeSpawn /> */}
+      <Bush/>
     </Canvas>
   );
 }
