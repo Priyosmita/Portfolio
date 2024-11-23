@@ -3,6 +3,7 @@ import CameraAndPikachu from './CameraAndPikachu';
 import { useEffect } from 'react';
 import * as THREE from 'three';
 import PondAbout from './PondAbout';
+import TreeSpawn from './TreeSpawn';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -13,7 +14,7 @@ const SetBackgroundColor = ({ color }) => {
 };
 
 const Ground = ({ color }) => (
-  <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
+  <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 5]}>
     {/* Plane geometry to act as the ground */}
     <planeGeometry args={[100, 100]} />
     <meshStandardMaterial color={color} />
@@ -31,7 +32,7 @@ export default function Forest() {
       <directionalLight
         position={[10, 20, 10]}
         intensity={4}
-        // color="#ffd917" // Warm sunlight color
+      // color="#ffd917" // Warm sunlight color
       />
 
       {/* Ground */}
@@ -42,9 +43,12 @@ export default function Forest() {
 
       {/* PondAbout */}
       <PondAbout
-        position={[0, 1, 30]} // Adjust the position as needed
+        position={[0, 1, 25]} // Adjust the position as needed
         scale={[0.6, 0.4, 0.7]} // Keep the original scale
       />
+
+      {/* Trees */}
+      <TreeSpawn />
     </Canvas>
   );
 }
