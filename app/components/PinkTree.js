@@ -2,7 +2,7 @@ import { useGLTF } from '@react-three/drei';
 import { useRef, useEffect } from 'react';
 
 const PinkTree = ({
-  positions = [[-25,0,42],
+  positions = [[-25,0,42],[-40,0,20],
   [-5,0,19]], // Default to one position, but you can pass multiple positions
   scale = [0.1, 0.1, 0.1],
   rotation = [[0,0,0],[0,30,0]], // Rotation can be applied globally or individually

@@ -5,6 +5,7 @@ import * as THREE from 'three';
 import PondAbout from './PondAbout';
 import TreeSpawn from './TreeSpawn';
 import Bush from './Bush';
+import Education from './Education';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -48,6 +49,12 @@ export default function Forest() {
         scale={[0.6, 0.4, 0.7]} // Keep the original scale
       />
 
+      {/* Education */}
+      <Education
+        position={[-30, 3, 25]} // Adjust the position as needed
+        scale={[0.007, 0.007, 0.02]} // Keep the original scale
+        rotation={[120,0,0]}
+      /> 
       {/* Trees */}
       <TreeSpawn />
       <Bush/>
