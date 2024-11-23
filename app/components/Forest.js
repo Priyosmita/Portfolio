@@ -9,6 +9,7 @@ import Education from './Education';
 import SkillsProjects from './SkillsProjects';
 import Experiences from './Experiences';
 import Awards from './Awards';
+import Contact from './Contact';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -19,7 +20,7 @@ const SetBackgroundColor = ({ color }) => {
 };
 
 const Ground = ({ color }) => (
-  <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 5]}>
+  <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 12]}>
     {/* Plane geometry to act as the ground */}
     <planeGeometry args={[100, 100]} />
     <meshStandardMaterial color={color} />
@@ -74,6 +75,11 @@ export default function Forest() {
       <Awards
         position={[30, 0, 5]} // Adjust the position as needed
         scale={[2.5, 1.2, 2.5]}/>
+
+      {/* Contact */}
+      <Contact
+        position={[30, 4, 30]} // Adjust the position as needed
+        scale={[0.5, 0.5, 0.5]}/>
 
       {/* Trees */}
       <TreeSpawn />

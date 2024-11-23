@@ -1,0 +1,11 @@
+Model Information:
+* title:	simple-mailbox
+* source:	https://sketchfab.com/3d-models/simple-mailbox-22b634e46c054081adda3a4b3b8a3894
+* author:	Mylom (https://sketchfab.com/Mylom)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "simple-mailbox" (https://sketchfab.com/3d-models/simple-mailbox-22b634e46c054081adda3a4b3b8a3894) by Mylom (https://sketchfab.com/Mylom) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
