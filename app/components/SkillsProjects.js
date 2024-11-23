@@ -5,7 +5,7 @@ import * as THREE from 'three';
 const SkillsProjects = ({ position = [0, 0, 0], scale = [1, 1, 1]}) => { // Tilt as a prop with default value
   const { scene, animations } = useGLTF('/assets/skills+projects/scene.gltf'); // Load the GLTF file
   const { actions } = useAnimations(animations, scene); // Bind animations to the scene
-  const educationRef = useRef(); // Ref to access the asset object
+  const skillsprojectsRef = useRef(); // Ref to access the asset object
 
   // Play the correct animation on loop
   useEffect(() => {
@@ -16,7 +16,7 @@ const SkillsProjects = ({ position = [0, 0, 0], scale = [1, 1, 1]}) => { // Tilt
 
   return (
     <primitive
-      ref={educationRef}
+      ref={skillsprojectsRef}
       object={scene}
       position={position}
       scale={scale}

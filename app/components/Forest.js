@@ -7,6 +7,8 @@ import TreeSpawn from './TreeSpawn';
 import Bush from './Bush';
 import Education from './Education';
 import SkillsProjects from './SkillsProjects';
+import Experiences from './Experiences';
+import Awards from './Awards';
 
 const SetBackgroundColor = ({ color }) => {
   const { scene } = useThree(); // Access the Three.js scene object
@@ -60,8 +62,18 @@ export default function Forest() {
       {/* Skills+Projects */}
       <SkillsProjects
         position={[-25, 0, 0]} // Adjust the position as needed
-        scale={[3, 3, 3]}
+        scale={[3.5, 3.5, 3.5]}
         rotation={[0,0,0]} />
+
+      {/* Experiences */}
+      <Experiences
+        position={[0, -4, -7]} // Adjust the position as needed
+        scale={[0.9, 0.9, 0.9]}/>
+
+      {/* Awards */}
+      <Awards
+        position={[30, 0, 5]} // Adjust the position as needed
+        scale={[2.5, 1.2, 2.5]}/>
 
       {/* Trees */}
       <TreeSpawn />

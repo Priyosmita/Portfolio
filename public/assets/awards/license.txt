@@ -1,0 +1,11 @@
+Model Information:
+* title:	Animated Treasure Chest
+* source:	https://sketchfab.com/3d-models/animated-treasure-chest-8a91221263b74048a4511dad9119203f
+* author:	Kay Nichol (https://sketchfab.com/kaynichol)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Animated Treasure Chest" (https://sketchfab.com/3d-models/animated-treasure-chest-8a91221263b74048a4511dad9119203f) by Kay Nichol (https://sketchfab.com/kaynichol) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
